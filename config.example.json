@@ -1,0 +1,17 @@
+{
+  "name": "Licensed local x86 image",
+  "medium": "cdrom",
+  "memory_mb": 256,
+  "vga_memory_mb": 16,
+  "acpi": false,
+  "cmdline": "",
+  "notes": "Replace every example path, digest, source, and license before building.",
+  "assets": {
+    "libv86.js": {"path": "assets/libv86.js", "sha256": "REPLACE_WITH_64_LOWERCASE_HEX", "source": "https://github.com/copy/v86/releases", "license": "BSD-2-Clause"},
+    "v86.wasm": {"path": "assets/v86.wasm", "sha256": "REPLACE_WITH_64_LOWERCASE_HEX", "source": "https://github.com/copy/v86/releases", "license": "BSD-2-Clause"},
+    "seabios.bin": {"path": "assets/seabios.bin", "sha256": "REPLACE_WITH_64_LOWERCASE_HEX", "source": "document exact source", "license": "document exact license"},
+    "vgabios.bin": {"path": "assets/vgabios.bin", "sha256": "REPLACE_WITH_64_LOWERCASE_HEX", "source": "document exact source", "license": "document exact license"},
+    "os-image.bin": {"path": "assets/os-image.bin", "sha256": "REPLACE_WITH_64_LOWERCASE_HEX", "source": "document exact source", "license": "document redistribution license"}
+  }
+}
+
