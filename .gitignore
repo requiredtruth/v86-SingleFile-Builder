@@ -1,0 +1,7 @@
+.v86-cache/
+assets/
+dist/
+*.html
+__pycache__/
+*.py[cod]
+
