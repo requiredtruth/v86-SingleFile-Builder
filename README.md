@@ -7,7 +7,7 @@ This repository preserves the generic single-file browser-VM builder idea while 
 ## Verify
 
 ```bash
-sh doit.sh
+sh install.sh
 ```
 
 Seven tests build and validate synthetic offline VM packages, check deterministic output and cache integrity, reject incorrect hashes or missing licenses, escape script-breaking profile content, and block non-HTTPS fetching.
@@ -65,3 +65,12 @@ Public donation addresses and the confirmed-transaction request process are in [
 
 Builder code is MIT licensed. Embedded assets retain their own licenses.
 
+
+
+## Install and run
+
+```sh
+chmod +x install.sh run.sh
+./install.sh
+./run.sh --help
+```
